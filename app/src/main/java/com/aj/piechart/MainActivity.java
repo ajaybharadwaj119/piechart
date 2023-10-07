@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
         pieChart.setCenterText("Pie Chart"); // Center text
 
                // Customize the chart to create a donut chart
-        pieChart.setHoleRadius(70f); // Adjust the hole radius to make it a donut chart
+        pieChart.setHoleRadius(0f); // Adjust the hole radius to make it a donut chart
         pieChart.setTransparentCircleRadius(0f); // Remove the transparent circle (center circle)
 
         // Optionally, you can disable the chart legend
